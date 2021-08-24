@@ -1,0 +1,72 @@
+body{
+	background-image:url("../images/img3.jpg");
+	/*background-repeat: no-repeat,repeat; 
+	back*/
+	background-color: #cccccc;
+}
+
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tit{
+	
+	text-align: center;
+	font-family: Arial;
+}
+.new1{
+	border:1px solid red;	
+}
+.navibar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+.navibar li{
+	float: left;
+}
+.navibar li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navibar li a:hover{
+	background-color: #111;
+}
+
+.sq td ul{
+	list-style-type: square;
+}
+
+table{
+	border-style: solid;border-color: blue;
+	color: black;
+	background-color: white;
+	width: 100%;
+	text-align: left;
+}
+.productData{
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 3px;
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+
+---------------------book----------------------------
+
+.btnlayout{
+	border-color: red;
+	border-width: 3px;
+	margin-top: 50px;
+}
